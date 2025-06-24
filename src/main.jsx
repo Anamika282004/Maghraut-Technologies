@@ -11,6 +11,8 @@ import FAQSection from './FAQ.jsx'
 import ConnectForm from './ConnectForm.jsx'
 import FoundersDeskCard from './FoundersDeskCard.jsx'
 import HeaderBanner from './Topmost.jsx'
+import ImageSlider3D from './ImageSlider.jsx'
+import Slider3DWithSwipeAndAutoPlay from './ImageSlider.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <HeaderBanner/>
@@ -18,9 +20,10 @@ createRoot(document.getElementById('root')).render(
     <AchievementCounter/>
     <SocialIcons/>
     <OfferingsSection/>
-    <FAQSection/>
     <ConnectForm/>
     <FoundersDeskCard/>
+    {/* <Slider3DWithSwipeAndAutoPlay/> */}
+    <FAQSection/>
     <CircleCardMarquee/>
     <Footer/>
   </StrictMode>,

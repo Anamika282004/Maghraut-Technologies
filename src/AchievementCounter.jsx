@@ -43,7 +43,7 @@ export default function AchievementCounter() {
     <motion.div
       initial={{ opacity: 0, y: 50 }}
       animate={controls}
-      className="max-w-6xl mx-auto text-center space-y-6 py-20 px-4 sm:px-6 md:pt-40 md:pb-12"
+      className="font-poppins max-w-6xl mx-auto text-center space-y-6 py-20 px-4 sm:px-6 md:pt-40 md:pb-12"
     >
       <motion.div className="space-y-4 mb-8 px-2 sm:px-0">
         <motion.h2 className="text-2xl sm:text-3xl font-semibold leading-tight">
