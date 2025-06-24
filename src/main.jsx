@@ -10,11 +10,11 @@ import CircleCardMarquee from './CircleCardGrid.jsx'
 import FAQSection from './FAQ.jsx'
 import ConnectForm from './ConnectForm.jsx'
 import FoundersDeskCard from './FoundersDeskCard.jsx'
-import Carousel from './Carausals.jsx'
+import HeaderBanner from './Topmost.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <HeaderBanner/>
     <App />
-    {/* <Carousel/> */}
     <AchievementCounter/>
     <SocialIcons/>
     <OfferingsSection/>
