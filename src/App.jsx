@@ -48,7 +48,7 @@ const Navbar = () => {
       <nav
         ref={dropdownRef}
         style={{ fontFamily: "'Poppins', sans-serif" }}
-        className="bg-white w-full fixed top-[100px] sm:top-[56px] z-50 border-b border-gray-200 shadow-sm"
+        className="bg-white w-full sticky top-[60px] sm:top-[48px] z-40 border-b border-gray-200 shadow-sm"
       >
         <div className="max-w-screen-xl mx-auto px-2 md:px-6 py-4 flex items-center justify-between">
           {/* Logo */}
