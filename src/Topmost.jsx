@@ -2,37 +2,43 @@ import React from 'react';
 
 const HeaderBanner = () => {
   return (
-    <div className="w-full bg-[#565de4] border-b border-[#d3d4ff] sticky top-0 z-30">
-      <div className="max-w-7xl mx-auto px-4 py-3 flex flex-col sm:flex-row items-center justify-between text-sm text-white">
-        
-        {/* Left: Message */}
-        <p className="text-center sm:text-left mb-2 sm:mb-0 text-white">
-          We’d love to hear about your business needs and see how Salesforce can help you scale faster, smarter.
-        </p>
+    <>
+      {/* Add this link to your HTML <head> or import Poppins via CSS */}
+      <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet"
+      />
+      <div className="w-full bg-[#565de4] border-b border-[#d3d4ff] sticky top-0 z-30" style={{ fontFamily: "'Poppins', sans-serif" }}>
+        <div className="max-w-7xl mx-auto px-4 py-2 flex flex-col sm:flex-row items-center sm:justify-between text-sm text-white space-y-2 sm:space-y-0">
 
-        {/* Right: Let’s Talk Salesforce CTA */}
-        <a
-          href="#"
-          className="text-white border border-white px-4 py-1.5 rounded-full hover:bg-white hover:text-[#565de4] transition flex items-center gap-2"
-        >
-          {/* Icon */}
-          <svg
-            className="w-5 h-5"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            viewBox="0 0 24 24"
+          {/* Message */}
+          <p className="text-center sm:text-left text-white leading-snug">
+            We’d love to hear about your business needs and see how Salesforce can help you scale faster, smarter.
+          </p>
+
+          {/* CTA Button */}
+          <a
+            href="#"
+            className="w-full sm:w-auto text-white border border-white px-4 py-2 rounded-full hover:bg-white hover:text-[#565de4] transition flex justify-center items-center gap-1"
           >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M8 7V3m8 4V3m-9 8h10m-7 4h.01M4 21h16a2 2 0 002-2V7a2 2 0 00-2-2H4a2 2 0 00-2 2v12a2 2 0 002 2z"
-            />
-          </svg>
-          Let’s Talk Salesforce
-        </a>
+            <svg
+              className="w-5 h-5"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M8 7V3m8 4V3m-9 8h10m-7 4h.01M4 21h16a2 2 0 002-2V7a2 2 0 00-2-2H4a2 2 0 00-2 2v12a2 2 0 002 2z"
+              />
+            </svg>
+            Let’s Talk Salesforce
+          </a>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
