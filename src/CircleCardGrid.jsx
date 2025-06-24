@@ -33,7 +33,7 @@ const duplicated = [...cards, ...cards];
 export default function CircleCardMarquee() {
   return (
     <div className="overflow-hidden py-10 bg-white">
-      <h1 className="text-3xl font-bold text-[#6465F1] text-center mb-8">Our Services</h1>
+      <h1 className="text-3xl font-bold text-[#565de4] text-center mb-8">Our Services</h1>
       <div className="marquee-container">
         <div className="marquee-track">
           {duplicated.map((card, idx) => (
@@ -41,7 +41,7 @@ export default function CircleCardMarquee() {
               key={idx}
               className="flex-shrink-0 px-6 w-28 text-center"
             >
-              <div className="w-24 h-24 rounded-full flex items-center justify-center bg-blue-100 text-[#6465F1] text-3xl shadow-md border-4 border-[#6465F1] mx-auto">
+              <div className="w-24 h-24 rounded-full flex items-center justify-center bg-[#ececff] text-[#565de4] text-3xl shadow-md border-4 border-[#565de4] mx-auto">
                 <FontAwesomeIcon icon={card.icon} />
               </div>
               <p className="mt-2 text-sm font-medium text-gray-700">

@@ -9,14 +9,18 @@ import OfferingsSection from './Body.jsx'
 import CircleCardMarquee from './CircleCardGrid.jsx'
 import FAQSection from './FAQ.jsx'
 import ConnectForm from './ConnectForm.jsx'
+import FoundersDeskCard from './FoundersDeskCard.jsx'
+import Carousel from './Carausals.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
+    {/* <Carousel/> */}
     <AchievementCounter/>
     <SocialIcons/>
     <OfferingsSection/>
     <FAQSection/>
     <ConnectForm/>
+    <FoundersDeskCard/>
     <CircleCardMarquee/>
     <Footer/>
   </StrictMode>,
