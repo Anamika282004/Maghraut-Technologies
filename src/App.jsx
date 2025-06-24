@@ -49,7 +49,7 @@ const Navbar = () => {
         <div className="flex-shrink-0 mr-4">
           <a href="/" className="flex items-center space-x-1">
             <img src="/logo.jpg" className="h-12" alt="Logo" />
-            <span className="text-l font-bold text-black whitespace-nowrap">MaghrautTechnologies</span>
+            <span className="text-xl font-bold text-black whitespace-nowrap">MaghrautTechnology</span>
           </a>
         </div>
 
@@ -152,7 +152,7 @@ const Navbar = () => {
           ))}
         </div>
 
-        {/* Book Consultation */}
+        {/* Book Consultation
        <div className="hidden md:flex items-center ml-4 whitespace-nowrap">
   <a
     href="#"
@@ -173,7 +173,7 @@ const Navbar = () => {
     </svg>
     Book Consultation
   </a>
-</div>
+</div> */}
 
 
 
