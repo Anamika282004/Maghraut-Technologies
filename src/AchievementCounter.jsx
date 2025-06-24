@@ -56,7 +56,7 @@ export default function AchievementCounter() {
           Our experienced team blends strategy, technology, and hands-on expertise to deliver tailored solutions for enterprises and SMBs alike
         </motion.p>
         <motion.button
-          className="mt-4 px-6 py-3 bg-[#6465F1] text-white rounded hover:bg-[#5757d9] transition text-sm sm:text-base"
+          className="mt-4 px-6 py-3 bg-[#565de4] text-white rounded hover:bg-[#444bd1] transition text-sm sm:text-base"
         >
           Contact the Salesforce Experts
         </motion.button>
@@ -69,7 +69,7 @@ export default function AchievementCounter() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1 + idx * 0.3, duration: 0.8 }}
-              className="text-3xl sm:text-4xl font-bold text-[#6465F1]"
+              className="text-3xl sm:text-4xl font-bold text-[#565de4]"
             >
               <Counter end={end} duration={2.5} />
             </motion.div>

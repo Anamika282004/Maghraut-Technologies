@@ -101,7 +101,7 @@ export default function ConnectForm() {
         {/* Image - right side, full width */}
         <div className="w-full md:w-1/2">
           <img
-            src="https://www.bugendaitech.com/admin2/postimages/64975b43be2ae62b5d023c6e75b8723f.svg"
+            src="/Imagecrm.svg"
             alt="Contact Illustration"
             className="w-full h-auto"
           />
