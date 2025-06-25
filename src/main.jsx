@@ -11,18 +11,19 @@ import FAQSection from './FAQ.jsx'
 import ConnectForm from './ConnectForm.jsx'
 import FoundersDeskCard from './FoundersDeskCard.jsx'
 import HeaderBanner from './Topmost.jsx'
-import ImageSlider3D from './ImageSlider.jsx'
-import Slider3DWithSwipeAndAutoPlay from './ImageSlider.jsx'
+import CollaborationGrid from './ImageSlider.jsx'
+import HeaderBannerNavbar from './HeaderBannerNavbar .jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode classname="pt-[120px] sm:pt-[100px]">
     <HeaderBanner/>
     <App />
+    {/* <HeaderBannerNavbar/> */}
     <AchievementCounter/>
     <SocialIcons/>
     <OfferingsSection/>
     <ConnectForm/>
     <FoundersDeskCard/>
-    {/* <Slider3DWithSwipeAndAutoPlay/> */}
+    <CollaborationGrid/>
     <FAQSection/>
     <CircleCardMarquee/>
     <Footer/>

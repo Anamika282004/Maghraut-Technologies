@@ -12,7 +12,7 @@ import {
   faBolt,
   faGlobe
 } from '@fortawesome/free-solid-svg-icons';
-import './CircleCardGrid.css'; // Import the CSS file
+import './CircleCardGrid.css'; // Import your CSS for marquee
 
 const cards = [
   { name: 'Innovation', icon: faLightbulb },
@@ -27,7 +27,6 @@ const cards = [
   { name: 'Global Reach', icon: faGlobe },
 ];
 
-// Duplicate cards for seamless scroll
 const duplicated = [...cards, ...cards];
 
 export default function CircleCardMarquee() {
@@ -39,12 +38,12 @@ export default function CircleCardMarquee() {
           {duplicated.map((card, idx) => (
             <div
               key={idx}
-              className="flex-shrink-0 px-6 w-28 text-center"
+              className="flex-shrink-0 px-16 w-36 text-center flex flex-col items-center"
             >
-              <div className="w-24 h-24 rounded-full flex items-center justify-center bg-[#ececff] text-[#565de4] text-3xl shadow-md border-4 border-[#565de4] mx-auto">
+              <div className="w-28 h-28 rounded-full flex items-center justify-center bg-[#ececff] text-[#565de4] text-3xl shadow-md border-4 border-[#565de4]">
                 <FontAwesomeIcon icon={card.icon} />
               </div>
-              <p className="mt-2 text-sm font-medium text-gray-700">
+              <p className="mt-2 text-sm font-medium text-gray-700 text-center">
                 {card.name}
               </p>
             </div>
