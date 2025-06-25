@@ -1,6 +1,6 @@
 /* Marquee container */
 .marquee-container {
-  width: 900px;                /* Fixed width for marquee area */
+  width: 100vw;                /* Fixed width for marquee area */
   margin: 0 auto;              /* Center horizontally */
   overflow: hidden;            /* Hide overflow outside scroll area */
   position: relative;

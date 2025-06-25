@@ -8,20 +8,21 @@ const HeaderBanner = () => {
         rel="stylesheet"
       />
       <div
-        className="w-full bg-[#565de4] border-b border-[#d3d4ff] sticky top-0 z-50"
-        style={{ fontFamily: "'Poppins', sans-serif" }}
-      >
-        <div className="max-w-7xl mx-auto px-4 py-3 sm:py-2 flex flex-col sm:flex-row items-center sm:justify-between text-white space-y-3 sm:space-y-0">
+  className="w-full h-[64px] bg-[#565de4] border-b border-[#d3d4ff] sticky top-0 z-40"
+  style={{ fontFamily: "'Poppins', sans-serif" }}
+>
 
+        <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col sm:flex-row items-center justify-between text-white gap-3 sm:gap-0 min-h-[64px]">
+          
           {/* Message */}
-          <p className="text-center sm:text-left text-sm sm:text-base leading-snug max-w-full whitespace-normal sm:whitespace-nowrap">
+          <p className="text-center sm:text-left text-sm sm:text-base leading-snug sm:leading-normal w-full sm:w-auto">
             We’d love to hear about your business needs and see how Salesforce can help you scale faster, smarter.
           </p>
 
           {/* CTA Button */}
           <a
             href="#"
-            className="w-full sm:w-auto text-white border border-white px-5 py-2 rounded-full hover:bg-white hover:text-[#565de4] transition flex justify-center items-center gap-1 whitespace-nowrap"
+            className="text-white border border-white px-5 py-2 rounded-full hover:bg-white hover:text-[#565de4] transition flex items-center gap-2 whitespace-nowrap"
           >
             <svg
               className="w-5 h-5"
